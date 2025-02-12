@@ -1,0 +1,233 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 30vh;
+    margin: 30px 0;
+}
+
+#header-container {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 300px;
+    height: 200px;
+}
+
+h1 {
+    font-size: 12px;
+    font-weight: normal;
+    letter-spacing: 2.5px;
+    padding: 0 25px 20px;
+    border-bottom: 1px solid grey;
+}
+
+#header-container a {
+    font-size: 80px;
+}
+
+#small-text{
+    font-size: 40px;
+    vertical-align: super;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 30vh;
+}
+
+#main-container {
+    position: relative;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: 250px;
+    display: block;
+    margin: 0 auto;
+}
+
+p#headline {
+    color: rgb(155, 155, 34);
+    font-size: 0.7em;
+    letter-spacing: 2.5px;
+    position: absolute;
+    top: 55px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+p#description {
+    font-size: 0.8em;
+    padding: 0 160px;
+    position: absolute;
+    top: 80px;
+}
+
+.button {
+    border: 2px solid white;
+    font-size: 10px;
+    letter-spacing: 2.5px;
+    padding: 13px 45px;
+    background-color: black;
+    color: white;
+    display: inline-block;
+}
+
+#main-button {
+    border: 2px solid black;
+    position: absolute;
+    top: 150px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    color: black
+}
+
+h2#newsletter {
+    color: rgb(155, 155, 34);
+    font-size: 0.6rem;
+    letter-spacing: 2.5px;
+}
+
+input[type="email"] {
+    width: 50%;
+    min-width: 200px;
+    height: 30px;
+    padding-left: 10px;
+    margin-right: 10px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 40vh;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+#footer-top {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid rgb(44, 43, 43);
+
+}
+
+#footer-top-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1280px;
+}
+
+#box1 {
+    flex: 3;
+    font-size: 12px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    letter-spacing: 2.5px;
+    padding: 40px 60px;
+}
+
+#box2 {
+    flex: 5;
+    padding: 40px 60px;
+    border-left: 1px solid rgb(44, 43, 43);
+}
+
+#footer-bottom {
+    display: flex;
+    justify-content: center;
+    overflow: auto;
+    width: 100%;
+    max-width: 1280px;
+}
+
+#box3 {
+    flex: 3;
+    padding: 20px 40px;
+}
+
+#box4 {
+    flex: 5;
+    padding: 20px 40px;
+}
+
+#headquarters {
+    display: flex;
+}
+
+#offices {
+    display: flex;
+    justify-content: space-around;
+}
+
+#footer-bottom h2 {
+    font-size: 0.8rem;
+    color: rgb(155, 155, 34);
+    font-weight: normal;
+    letter-spacing: 3px;
+    padding: 0 20px;
+}
+
+#footer-bottom h3{
+    font-size: 0.7rem;
+    letter-spacing: 3px;
+    padding-bottom: 15px;
+}
+
+.locations {
+    font-size: 12px;
+    padding: 10px 20px;
+}
+
+#footer-bottom .button {
+    padding: 8px 30px;
+    margin: 25px 20px;
+}
+
+#edinburgh {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+#edinburgh p {
+    padding: 5px;
+    margin: 0;
+}
+
+.yellow-text {
+    color: rgb(155, 155, 34)
+}
+
+.email {
+    text-decoration: underline;
+}
