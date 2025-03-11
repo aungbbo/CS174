@@ -1,0 +1,23 @@
+# Ignore node_modules (for Node.js projects)
+node_modules/
+
+# Ignore Python virtual environment
+venv/
+
+# Ignore compiled files
+*.class
+*.o
+*.so
+
+# Ignore OS-generated files
+.DS_Store
+Thumbs.db
+
+# Ignore environment variables or secrets
+.env
+config/secrets.json
+
+# Ignore log files
+*.log
+logs/
+
